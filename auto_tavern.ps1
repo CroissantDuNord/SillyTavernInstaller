@@ -16,7 +16,7 @@ if ($confirmation -eq "Y" -or $confirmation -eq "y") {
     $shortcut.Save()
 
     Write-Host "Starting SillyTavern"
-    Write-Host "If you need help for other things (Charather, API...) check this tutorial https://www.youtube.com/watch?v=BMcJHfGZs-s or the wiki https://docs.sillytavern.app"
+    Write-Host "If you need help check the wiki https://docs.sillytavern.app"
     ./start.bat
 
 }
