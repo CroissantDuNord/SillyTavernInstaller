@@ -1,3 +1,6 @@
+![image](https://github.com/CroissantDuNord/SillyTavernInstaller/blob/main/banner.png?raw=true)
+
+
 # SillyTavern Auto Installer
 Powershell script to auto install SillyTavern
 
