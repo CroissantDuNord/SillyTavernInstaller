@@ -7,7 +7,7 @@ if ($confirmation -eq "Y" -or $confirmation -eq "y") {
     winget install --id Git.Git -e --source winget
     
     Write-Host "Installing SillyTavern"
-    git clone https://github.com/SillyTavern/SillyTavern.git
+    Invoke-Expression -Command "& 'C:\Program Files\Git\cmd\git.exe' clone https://github.com/SillyTavern/SillyTavern.git"
     Set-Location SillyTavern
     Write-Host "Creating a dekstop shortcut for SillyTavern"
     $shell = New-Object -ComObject WScript.Shell
