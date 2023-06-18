@@ -15,9 +15,8 @@ if ($confirmation -eq "Y" -or $confirmation -eq "y") {
     $shortcut.TargetPath = "$PWD\start.bat"
     $shortcut.Save()
 
-    Write-Host "Starting SillyTavern"
+    Write-Host "To start SillyTavern, Open the file named Start_SillyTavern on your desktop"
     Write-Host "If you need help check the wiki https://docs.sillytavern.app"
-    ./start.bat
 
 }
 else {
